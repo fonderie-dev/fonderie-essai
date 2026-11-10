@@ -1,0 +1,12 @@
+# Essai: status line, scope and milestones. Keep in step with the README.
+state: "Scaffold. The package installs and its smoke test passes; none of the scope below is implemented yet. This site is an outline of what Essai will document, and every detailed section is marked *coming soon*."
+scope:
+  - "Task definitions as versioned files: inputs, references, metric, and the exact prompt or scoring procedure."
+  - "Runs against a model pinned to a commit hash, with fixed seeds and decoding settings, producing a [run record](https://fonderie-dev.github.io/website/methode/#the-run-record) and per-item outputs."
+  - "Checks for overlap between evaluation items and a training manifest from [Affinage](https://fonderie-dev.github.io/fonderie-affinage/)."
+  - "Comparison across models, revisions and [Burin](https://fonderie-dev.github.io/fonderie-burin/) edits, reported with uncertainty intervals rather than single numbers."
+out_of_scope: "A public leaderboard; evaluation through hosted model APIs unless a task definition requires it explicitly."
+milestones:
+  - "Task-file format and validator."
+  - "Deterministic evaluation of a tiny local model on a synthetic task, inside the test suite."
+  - "Result comparison with bootstrap intervals."

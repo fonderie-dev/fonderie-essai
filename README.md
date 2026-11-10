@@ -6,6 +6,10 @@ Reproducible evaluation of models on scientific tasks. Part of
 An *essai* is the assay: the test that establishes what a casting actually
 contains.
 
+Project site: <https://fonderie-dev.github.io/fonderie-essai/>, an outline of
+this repository; sections that describe functionality are marked *coming
+soon* until the code exists. Its source is in [docs/](docs/).
+
 > **Status: scaffold (○○○).** The package installs and its smoke test passes.
 > None of the scope below is implemented yet.
 
@@ -42,6 +46,7 @@ python -m pytest
 ```
 src/fonderie_essai/   package
 tests/                pytest suite: no downloads, no GPU
+docs/                 project site (Hugo), deployed to GitHub Pages
 ```
 
 CI runs the shared

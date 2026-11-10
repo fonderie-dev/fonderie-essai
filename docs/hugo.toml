@@ -1,0 +1,32 @@
+baseURL = "https://fonderie-dev.github.io/fonderie-essai/"
+locale = "en"
+defaultContentLanguage = "en"
+title = "Essai"
+disableKinds = ["taxonomy", "term", "rss"]
+enableRobotsTXT = true
+
+[params]
+  slug = "essai"
+  author = "R. Heller"
+  since = 2026
+  description = "Essai, a Fonderie atelier: reproducible evaluation of models on scientific tasks."
+  fonderie = "https://fonderie-dev.github.io/website/"
+  analyticsDomain = "fonderie-dev.github.io/fonderie-essai"
+
+[[menus.main]]
+  name = "Guide"
+  pageRef = "/guide"
+  weight = 1
+
+[[menus.main]]
+  name = "Référence"
+  pageRef = "/reference"
+  weight = 2
+
+[[menus.main]]
+  name = "Journal"
+  pageRef = "/journal"
+  weight = 3
+
+[markup.highlight]
+  noClasses = false
